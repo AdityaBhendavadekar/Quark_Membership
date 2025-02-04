@@ -107,7 +107,7 @@ This repository contains a curated list of practice questions for beginners lear
 ## Mixed Questions
 
 ### Description
-This section contains questions that combine concepts from multiple topics. These are designed to help students strengthen their problem-solving skills.
+This section contains questions that combine concepts from multiple topics.
 
 ---
 
