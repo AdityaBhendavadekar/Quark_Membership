@@ -1,8 +1,15 @@
 // import java.util.Scanner;
 
-class Session2{
+class Session2 {
+
+    static void hello(){
+        System.out.println("in class session2");
+
+    }
     public static void main(String[] args){
 
+
+        
     // Scanner s1 = new Scanner(System.in);
 
     /* Operators in Java */
