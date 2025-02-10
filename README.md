@@ -124,7 +124,7 @@ This repository contains a curated list of practice questions for beginners lear
    - `public`, `private`, `protected`, and default access.
 
 ### Notes PDF
-📚 [Download Week 3 Notes PDF](#) *(Replace with actual link)*
+📚 [Download Week 3 Notes PDF](https://www.canva.com/design/DAGeDa6GbGs/bfTZ0DaG0_oA3b3aT0dx_g/edit) 
 
 ---
 
@@ -175,12 +175,11 @@ This section contains questions that combine concepts from multiple topics.
    ```
 4. Write a program to find the second largest number in an array.
 5. Write a program to check if a given string is an anagram of another string.
-6. **Library System**: Create a `Library` class with a list of `Book` objects (use the `Book` class from Week 3). Add methods to:
+6. **Library System**: Create a `Library` class with a list of `Book` objects. Add methods to:
    - Add a book.
    - Search for a book by title.
    - Display all books (use inheritance for different book types like `Fiction` and `NonFiction`).
-7. **Complex Numbers**: Design a `Complex` class to represent complex numbers. Overload the `+` and `*` operators to add and multiply complex numbers.
-8. **Employee Hierarchy**: Create a `Manager` class (inheriting from `Employee`) with a `department` attribute. Override the `displayDetails()` method to include department information.
+7. **Employee Hierarchy**: Create a `Manager` class (inheriting from `Employee`) with a `department` attribute. Override the `displayDetails()` method to include department information.
 
 
 ---
