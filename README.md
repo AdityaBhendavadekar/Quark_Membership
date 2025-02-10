@@ -18,6 +18,11 @@ This repository contains a curated list of practice questions for beginners lear
   - [Strings](#2-strings)
   - [Arrays](#3-arrays)
   - [Command Line Arguments](#4-command-line-arguments)
+- [Week 3](#week-3-object-oriented-programming)
+  - [Functions](#1-functions)
+  - [Classes and Objects](#2-classes-and-objects)
+  - [Inheritance](#3-inheritance)
+  - [Access Modifiers](#4-access-modifiers)
 - [Mixed Questions](#mixed-questions)
 
 ---
@@ -102,6 +107,52 @@ This repository contains a curated list of practice questions for beginners lear
 1. Write a program that takes two numbers as command-line arguments and prints their sum.
 2. Write a program that takes a string as a command-line argument and checks if it is a palindrome.
 
+
+## Week 3: Object-Oriented Programming
+
+### Topics Covered
+1. **Functions**
+   - Defining and calling methods.
+   - Method parameters and return types.
+2. **Classes and Objects**
+   - Creating classes, objects, and constructors.
+   - Instance vs. static members.
+3. **Inheritance**
+   - Single, multilevel, and hierarchical inheritance.
+   - Method overriding and `super` keyword.
+4. **Access Modifiers**
+   - `public`, `private`, `protected`, and default access.
+
+### Notes PDF
+📚 [Download Week 3 Notes PDF](#) *(Replace with actual link)*
+
+---
+
+### Practice Questions
+
+#### 1. Functions
+1. Write a function `isPrime(int num)` that checks if a number is prime and returns `true` or `false`.
+2. Write a recursive function to calculate the factorial of a number.
+3. Create a function `findMax(int[] arr)` that returns the maximum value in an array.
+
+#### 2. Classes and Objects
+1. Create a `Student` class with attributes `name`, `rollNumber`, and `marks`. Add methods to:
+   - Calculate the average marks.
+   - Display student details.
+2. Design a `BankAccount` class with attributes `accountNumber`, `balance`, and methods `deposit()`, `withdraw()`, and `displayBalance()`.
+3. Create a `Book` class with a static variable `totalBooks` to track the number of books created.
+
+#### 3. Inheritance
+1. Create a base class `Vehicle` with attributes `speed` and `fuelType`. Derive two classes `Car` and `Motorcycle` that override a method `displayDetails()`.
+2. Implement a `Shape` class with a method `calculateArea()`. Derive classes `Circle` and `Rectangle` to override this method.
+3. Design a `Person` class with attributes `name` and `age`. Derive `Employee` and `Student` classes with additional attributes like `salary` and `grade`.
+
+#### 4. Access Modifiers
+1. Create a class `Employee` with private attributes `id` and `salary`. Provide public getter and setter methods.
+2. Design a class `Animal` with a protected attribute `species`. Derive a class `Dog` and access the `species` attribute.
+3. Demonstrate the difference between `public`, `private`, and `default` access by creating classes in the same and different packages.
+
+
 ---
 
 ## Mixed Questions
@@ -124,6 +175,13 @@ This section contains questions that combine concepts from multiple topics.
    ```
 4. Write a program to find the second largest number in an array.
 5. Write a program to check if a given string is an anagram of another string.
+6. **Library System**: Create a `Library` class with a list of `Book` objects (use the `Book` class from Week 3). Add methods to:
+   - Add a book.
+   - Search for a book by title.
+   - Display all books (use inheritance for different book types like `Fiction` and `NonFiction`).
+7. **Complex Numbers**: Design a `Complex` class to represent complex numbers. Overload the `+` and `*` operators to add and multiply complex numbers.
+8. **Employee Hierarchy**: Create a `Manager` class (inheriting from `Employee`) with a `department` attribute. Override the `displayDetails()` method to include department information.
+
 
 ---
 
