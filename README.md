@@ -194,12 +194,10 @@ This repository contains a curated list of practice questions for beginners lear
 
 ### Resources
 🔗 **YouTube Tutorials**  
-1. [Android Studio Installation Guide](https://www.youtube.com/watch?v=your-link-here) *(Replace with actual link)*  
-2. [First Android App Tutorial](https://www.youtube.com/watch?v=your-link-here) *(Replace with actual link)*  
+1. [Android Studio Installation Guide](https://youtu.be/t835Y5JeoBU?si=4WstFSFZuB_RtkQU)   
 
 📖 **Documentation**  
 - [Android Developers Official Guide](https://developer.android.com/studio/install)  
-- [Android Studio Tips for Beginners](https://developer.android.com/studio/intro)  
 
 
 ## Week 6: UI Components
