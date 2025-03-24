@@ -23,6 +23,11 @@ This repository contains a curated list of practice questions for beginners lear
   - [Classes and Objects](#2-classes-and-objects)
   - [Inheritance](#3-inheritance)
   - [Access Modifiers](#4-access-modifiers)
+- [Week 4](#week-4-exception-handling-and-collections)
+  - [Exception Handling](#1-exception-handling)
+  - [ArrayList](#2-arraylist)
+- [Week 5](#week-5-android-studio-installation-and-setup)
+- [Week 6](#week-6-ui-components)  
 - [Mixed Questions](#mixed-questions)
 
 ---
@@ -126,6 +131,22 @@ This repository contains a curated list of practice questions for beginners lear
 ### Notes PDF
 📚 [Download Week 3 Notes PDF](https://www.canva.com/design/DAGeDa6GbGs/bfTZ0DaG0_oA3b3aT0dx_g/edit) 
 
+
+## Week 4: Exception Handling and Collections
+
+### Topics Covered
+1. **Exception Handling**
+   - `try`, `catch`, `finally`, and `throw` keywords.
+   - Built-in exceptions (`NullPointerException`, `ArrayIndexOutOfBoundsException`, etc.).
+   - Custom exceptions.
+2. **Collection API (ArrayList)**
+   - Basics of `ArrayList` (declaration, adding/removing elements, iteration).
+   - Common methods (`add()`, `remove()`, `get()`, `size()`).
+
+### Notes PDF
+📚 [Download Week 4 Notes PDF](https://www.canva.com/design/DAGeyRx3TGw/xBu9xYxUaLrfbPR3Fpo68w/edit?utm_content=DAGeyRx3TGw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
 ---
 
 ### Practice Questions
@@ -152,6 +173,72 @@ This repository contains a curated list of practice questions for beginners lear
 2. Design a class `Animal` with a protected attribute `species`. Derive a class `Dog` and access the `species` attribute.
 3. Demonstrate the difference between `public`, `private`, and `default` access by creating classes in the same and different packages.
 
+#### 5. Exception Handling
+1. Write a program to handle `ArithmeticException` (division by zero) using `try-catch`.
+2. Create a custom exception `InvalidAgeException` and throw it if a user enters an age less than 18.
+3. Write a program to read data from a file and handle `FileNotFoundException` and `IOException`.
+
+#### 6. ArrayList
+1. Write a program to add 5 student names to an `ArrayList` and display them using a loop.
+2. Create an `ArrayList` of integers. Remove all even numbers from the list.
+3. Write a program to search for a specific element in an `ArrayList` and print its index.
+4. Sort an `ArrayList` of strings in alphabetical order.
+
+## Week 5: Android Studio Installation and Setup
+
+### Topics Covered
+- Installing Android Studio and SDK.
+- Setting up the development environment.
+- Creating a "Hello World" project.
+- Overview of Android project structure.
+
+### Resources
+🔗 **YouTube Tutorials**  
+1. [Android Studio Installation Guide](https://www.youtube.com/watch?v=your-link-here) *(Replace with actual link)*  
+2. [First Android App Tutorial](https://www.youtube.com/watch?v=your-link-here) *(Replace with actual link)*  
+
+📖 **Documentation**  
+- [Android Developers Official Guide](https://developer.android.com/studio/install)  
+- [Android Studio Tips for Beginners](https://developer.android.com/studio/intro)  
+
+
+## Week 6: UI Components
+
+### Topics Covered
+- **Basic UI Components**:  
+  `TextView`, `EditText`, `Button`, `ImageButton`, `RadioButton`, `RadioGroup`, `CheckBox`, `DatePicker`, `TimePicker`.  
+- Creating interactive layouts.  
+- Handling user input and events.
+
+### Notes PDF  
+📚 [Download Week 6 UI Components PPT](https://www.canva.com/design/DAGiGCKM-50/Eh-tnX4W189uvvhdYeSWCA/edit?utm_content=DAGiGCKM-50&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
+
+#### Task 1: Simple Login Screen
+- Design a layout with:
+  - Two `EditText` fields for **Username** and **Password**.
+  - A `Button` labeled "Login".
+  - A `TextView` to display validation messages (e.g., "Username cannot be empty!").
+
+#### Task 2: Survey Form
+- Create a survey form with:
+  - `RadioGroup` for gender selection (`Male`, `Female`, `Other`).
+  - `CheckBox`es for hobbies (e.g., Reading, Sports, Music).
+  - A `Button` to submit the form.
+  - Display selected options in a `TextView`.
+
+#### Task 3: Date and Time Picker
+- Add a `DatePicker` and `TimePicker` to a layout.
+  - Include a `Button` labeled "Set Reminder".
+  - Display the selected date and time in a `TextView` after clicking the button.
+
+#### Task 4: ImageButton with Feedback
+- Add an `ImageButton` (e.g., a star icon).
+  - Change the button’s image when clicked (e.g., filled star).
+  - Use a `TextView` to show a message like "Added to Favorites!".
+
+#### Task 5: Dynamic TextView
+- Create an `EditText` for user input and a `Button`.
+  - When the user clicks the button, display the entered text in a `TextView` below.
 
 ---
 
@@ -180,6 +267,33 @@ This section contains questions that combine concepts from multiple topics.
    - Search for a book by title.
    - Display all books (use inheritance for different book types like `Fiction` and `NonFiction`).
 7. **Employee Hierarchy**: Create a `Manager` class (inheriting from `Employee`) with a `department` attribute. Override the `displayDetails()` method to include department information.
+
+8. **Library Management System**:
+   - Use the `Book` class (from Week 3) to create an `ArrayList` of books.
+   - Add exception handling to prevent invalid inputs (e.g., negative book IDs).
+   - Implement methods to add, remove, and search books by title.
+
+9. **Student Grade Calculator**:
+   - Create a `Student` class (Week 3) with attributes `name` and `marks` (stored in an `ArrayList<Integer>`).
+   - Calculate the average marks. Handle exceptions for invalid marks (e.g., negative values).
+   - Use loops and conditionals to assign grades (Week 1-2 concepts).
+
+10. **Bank Account with Transactions**:
+   - Extend the `BankAccount` class (Week 3) to store transaction history in an `ArrayList<String>`.
+   - Throw a custom exception `InsufficientFundsException` if withdrawal amount exceeds balance.
+   - Display transaction history using loops.
+
+11. **Temperature Converter**:
+   - Write a method to convert Celsius to Fahrenheit. Handle invalid inputs (non-numeric values) using exception handling.
+   - Store valid conversions in an `ArrayList` and display them.
+
+12. **Menu-Driven Program**:
+   - Create a menu using `switch-case` (Week 1) to perform operations on an `ArrayList` of integers:
+     - Add elements
+     - Remove elements
+     - Find maximum/minimum
+     - Exit
+
 
 
 ---
